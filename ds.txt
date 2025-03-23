@@ -1,0 +1,26 @@
+[
+    {
+        "conversations": [
+            {
+                "from": "technician",
+                "value": "The Trimble Earthworks software is showing a 'No GNSS Signal' error on my excavator. What should I do?"
+            },
+            {
+                "from": "bot",
+                "value": "A 'No GNSS Signal' error typically indicates that the system isn’t receiving satellite data. Here’s how to resolve it:\n1. **Check Antenna Connections**: Ensure the GNSS antennas (on the cab or gooseneck, depending on your setup) are securely connected and undamaged. Look for loose cables or corrosion.\n2. **Verify Antenna Placement**: Confirm the antennas have a clear line of sight to the sky—remove any obstructions like tree branches or nearby structures.\n3. **Power Cycle the System**: Turn off the Trimble TD520 display and the machine, wait 30 seconds, then restart both.\n4. **Check Correction Source**: Ensure your correction service (e.g., VRS, IBSS, or CenterPoint RTX) is active and configured correctly in the software under Settings > Correction Services.\n5. **Inspect Satellite Status**: Go to the Diagnostics menu on the TD520 display and check the number of satellites in view. You need at least 5 for a reliable fix—fewer could indicate interference or a hardware issue.\nIf the problem persists, contact your SITECH dealer to test the GNSS receiver for faults."
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "from": "technician",
+                "value": "My Trimble Earthworks app keeps crashing on the TD520 display. How do I fix this?"
+            },
+            {
+                "from": "bot",
+                "value": "If the Trimble Earthworks app is crashing on the TD520 display, follow these steps:\n1. **Restart the Display**: Power off the TD520, wait 1 minute, and turn it back on to clear any temporary glitches.\n2. **Check Software Version**: Go to Settings > About and verify you’re running the latest version of Earthworks (e.g., version 2.x as of March 2025). If not, download the update from Trimble WorksManager or your dealer.\n3. **Clear Cache**: In the Android settings on the TD520, navigate to Apps > Trimble Earthworks > Storage > Clear Cache. This removes corrupted temporary files.\n4. **Reinstall the App**: If the issue continues, uninstall the app via Settings > Apps, then reinstall it from a USB drive provided by your dealer or via WorksManager.\n5. **Check Storage Space**: Ensure the TD520 has at least 500 MB of free space (Settings > Storage). Delete unused files if needed.\nIf crashing persists, note the exact error message (if any) and contact Trimble Support with the logs from Diagnostics > Export Logs."
+            }
+        ]
+    }
+]
