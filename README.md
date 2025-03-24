@@ -36,6 +36,9 @@ This repository contains a fine-tuning workflow for **LLaMA 3.2 (1B & 3B models)
 - Experiment with **LoRA & QLoRA** for efficient training.
 - Explore **deployment strategies** for real-time inference.
 
+## Tips & Tricks
+- Try using Google colab as that seems to be the only reliable option to train llms easily for free.
+- If you have a RTX4090, burn it down 🔥
 ---
 🚀 **Happy Fine-Tuning!**
 
